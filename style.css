@@ -1,0 +1,132 @@
+body{
+  background-color:#e0e0eb;
+}
+
+.container{
+  justify-content:center;
+  padding-top:800px;
+  width:800px;
+  margin-left:120px;
+  border:1px solid black;
+  border-radius:12px;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.2),rgba(0,0,0,1)),url(https://cpec-centre.pk/wp-content/uploads/2017/04/blue-background-17-Copy.jpg);
+  background-size:cover;
+  background-position:center;
+}
+
+.header{
+  color:#1e1e7b;
+  font-size:36px;
+  font-weight:bold;
+  text-align:center;
+  position:relative;
+  top:-760px;
+  left:12px;
+  animation-name:headerMove;
+  animation-duration:3s;
+  animation-iteration-count:infinite;
+}
+
+.name{
+  margin-left:36px;
+  color:white;
+  font-size:24px;
+  position:relative;
+  top:-780px;
+  border-bottom:3px solid #333333;
+  padding:12px;
+  animation-name:nameMove;
+  animation-duration:2s;
+  animation-iteration-count:infinite;
+}
+
+.pi{
+  font-size:24px;
+  font-weight:bold;
+  position:relative;
+  margin-left:180px;
+  margin-top:-760px;
+  margin-left:24px;
+  padding:12px;
+  color:white;
+}
+
+.data{
+  margin:12px;
+}
+
+.items{
+  font-size:16px;
+  margin-left:16px;
+  font-weight: normal;
+  color:white;
+}
+
+.ex{
+  font-size:24px;
+  font-weight:bold;
+  position:relative;
+  margin-left:180px;
+  margin-top:10px;
+  margin-left:24px;
+  padding:12px;
+  color:white;
+}
+
+.cer{
+  font-size:24px;
+  font-weight:bold;
+  position:relative;
+  margin-left:180px;
+  margin-top:10px;
+  margin-left:24px;
+  padding:12px;
+  color:white;
+}
+
+.pic{
+  width:225px;
+  margin-left:530px;
+  margin-top:-700px;
+  position:absolute;
+}
+
+.cm{
+  font-size:24px;
+  font-weight:bold;
+  position:relative;
+  margin-left:180px;
+  margin-top:10px;
+  margin-left:24px;
+  padding:12px;
+  color:white;
+}
+
+.pics{
+  display:flex;
+  margin-top:16px;
+  width:100%;
+  align-items:center;
+  justify-content:space-around;
+}
+
+.fb{
+  margin-left:50px;
+}
+
+.ig{
+  margin-left:50px;
+}
+.line{
+  margin-left:50px;
+}
+
+.mail{
+  margin-left:50px;
+}
+
+@keyframes headerMove {
+  0% {margin-left:400px;}
+  50% {margin-left:0px;}
+  100% {margin-left:0px;}
+}
